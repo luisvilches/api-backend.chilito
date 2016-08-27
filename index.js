@@ -12,7 +12,7 @@ var cors = require('cors');
 var routes = require('./routes/routes');
 
 var app = express();
-var db = "mongodb://localhost/chilito4";
+var db = " mongodb://chilito:chilito2230@ds147905.mlab.com:47905/chilito";
 var msg_server = "corriendo en el puerto: ";
 
 

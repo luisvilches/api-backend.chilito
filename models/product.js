@@ -5,7 +5,16 @@ var Producto = new Schema({
 
 	nombre: String,
 	precio: String,
-	urlImage: String
+	urlImage: String,
+	descripcion: {
+		descripcion1: String,
+		descripcion2: String,
+		descripcion3: String,
+		medidas: String,
+		descripcion4: String,
+		envio: String,
+		despacho: String
+	}
 
 });
 

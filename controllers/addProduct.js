@@ -12,6 +12,15 @@ module.exports = {
 			nombre: req.body.name,
 			precio: req.body.precio,
 			urlImage: req.body.urlimg
+			descripcion: {
+				descripcion1: req.body.descripcion1,
+				descripcion2: req.body.descripcion2,
+				descripcion3: req.body.descripcion3,
+				medidas: req.body.medidas,
+				descripcion4: req.body.descripcion4
+				envio: req.body.envio,
+				despacho: req.body.despacho
+			}
 		});
 
 		cloudinary.uploader.upload(req.file.path,(result) => {
